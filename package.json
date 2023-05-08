@@ -1,0 +1,19 @@
+{
+  "name": "tagging",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mecuate/tagging.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mecuate/tagging/issues"
+  },
+  "homepage": "https://github.com/Mecuate/tagging#readme"
+}
