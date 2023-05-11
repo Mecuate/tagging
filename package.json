@@ -1,6 +1,6 @@
 {
   "name": "tagging",
-  "version": "1.0.20-rc",
+  "version": "1.0.22",
   "description": "",
   "main": "index.js",
   "scripts": {
