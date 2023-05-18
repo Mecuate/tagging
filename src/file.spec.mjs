@@ -18,7 +18,7 @@ describe('Test Suite Unit', () => {
         const testingB_2 = B(56)
         expect(testingB_2).toBe('err')
     })
-    
+
     it('Should return a false value', () => {
         const testingC = C()
         expect(testingC).toBe(false)

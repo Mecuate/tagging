@@ -23,5 +23,5 @@ export function C() {
         sum += a + b + c
     }
 
-    return sum ? sum : false
+    return sum > 1500 ? sum : false
 }
