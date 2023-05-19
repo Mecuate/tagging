@@ -1,12 +1,12 @@
 {
     "name": "tagging",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "jest --config=jest.config.js",
         "format": "prettier --check .prettierrc.json src/**/*.{js,mjs}",
-        "build": "sleep 15 && mkdir dist && cd dist && echo 'BUILD SUCCESSFUL' >> log.log"
+        "build": "sleep 5 && mkdir dist && cd dist && echo 'BUILD SUCCESSFUL' >> log.log"
     },
     "repository": {
         "type": "git",
