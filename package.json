@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "jest --config=jest.config.js",
-        "format": "prettier --check .prettierrc.json src/**/*.{js,mjs}",
+        "format": "prettier .prettierrc.json \"src/**/*.{js,mjs}\" --check",
         "build": "sleep 5 && mkdir dist && cd dist && echo 'BUILD SUCCESSFUL' >> log.log"
     },
     "repository": {
