@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest --config=jest.config.js",
         "pretty": "prettier --config .prettierrc.json \"./**/*.{js,json}\" --write",
-        "format": "prettier --check .prettierrc.json ./**/*.{js,json}",
+        "format": "prettier --config .prettierrc.json --check ./**/*.{js,json}",
         "build": "sleep 5 && mkdir dist && cd dist && echo 'BUILD SUCCESSFUL' >> log.log"
     },
     "repository": {
